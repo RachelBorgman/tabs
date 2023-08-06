@@ -1,0 +1,52 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.tabs{
+  display: flex;
+}
+.tab{
+  margin: 5px;
+  border: 1px solid gray;
+  width: 200px;
+}
+/* .contents{
+  display: flex;
+} */
+.selectedTab {
+  color: white;
+  background-color: black;
+  border: 2px solid black;
+  margin: 5px;
+  width: 200px;
+}
+.nonSelectedTab {
+  color: black;
+  background-color: white;
+  margin: 5px;
+  border: 1px solid gray;
+  width: 200px;
+}
+.content{
+  border: 1px solid gray;
+  width: 630px;
+  height: 200px;
+  text-align: left;
+  /* display: ; */
+}
+/* .content2{
+  border: 1px solid gray;
+  width: 630px;
+  height: 200px;
+  text-align: left;
+  display: none;
+}
+.content3{
+  border: 1px solid gray;
+  width: 630px;
+  height: 200px;
+  text-align: left;
+  display: none;
+} */
